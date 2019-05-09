@@ -1,0 +1,1770 @@
+* {
+    box-sizing: border-box;
+} 
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px 50px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html.menu-open {
+    overflow: hidden;
+}
+
+.logo-marta {
+    display: block;
+    width: 120px;
+}
+
+.header-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.billboard {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-grey {
+    color: #E6E6E6;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.subtitle {
+    width: 40vw;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 52px;
+    margin: 0;
+    line-height: 52pt;
+}
+
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;    
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+}
+
+.white {
+    color: white;
+}
+
+/* visited link */
+.header-link,
+.header-link:active,
+.header-link:visited {
+    color: #222326;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: none;
+  }
+
+.header-link:hover {
+    opacity: .3;
+}
+
+/* visited link */
+.header-menu-white,
+.header-menu-white:active,
+.header-menu-white:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: none;
+  }
+
+.header-menu-white:hover {
+    opacity: .3;
+}
+
+/* Custom link */
+
+.button-project {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 177px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.button-project:active,
+.button-project:hover {
+  color: #222326;
+  background-color: white;
+  border-color: #222326;
+}
+
+.project-section {
+    background-color: #7F9D03;
+    height: 100vh;
+    width: 75vw;
+    padding: 0 0 0 50px;
+}
+
+.project-section-content {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.project-section-categories {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.project-section-image {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.project-section-footer {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding-right: 50px; 
+}
+
+.project-section-categories-title {
+    margin-bottom: 6px;
+}
+
+.project-section-image-background {
+    background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 60vw;
+    transform: translateX(17vw);
+    margin-bottom: 30px;
+}
+
+.project-section-footer-title {
+    width: 450px;
+    font-size: 62px;
+    line-height: 62px;
+    text-align: left;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.project-section-footer .button-project {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+
+.project-section-two {
+    background-color: #38477E;
+    height: 100vh;
+    width: 75vw;
+    padding: 0 50px 0 50px;
+    align-self: flex-end;
+}
+
+.project-section-content-two {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.project-section-categories-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+.project-section-image-two {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.project-section-footer-two {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding-left: 50px; 
+    flex-direction: row-reverse;
+}
+
+.project-section-categories-title-two {
+    margin-bottom: 6px;
+}
+
+.project-section-image-background-two {
+    background-image: url("img/marta_portales_mutis_01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 60vw;
+    transform: translateX(-17vw);
+    margin-bottom: 30px;
+}
+
+.project-section-footer-title-two {
+    width: 650px;
+    font-size: 62px;
+    line-height: 62px;
+    text-align: right;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.project-section-footer-two .button-project {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+
+.project-section-three {
+    background-color: #A16E1E;
+    height: 100vh;
+    width: 75vw;
+    padding: 0 0 0 50px;
+}
+
+.project-section-content-three {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+}
+
+.project-section-categories-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-bottom: 24px;
+}
+
+.project-section-image-three {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.project-section-footer-three {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding-right: 50px; 
+}
+
+.project-section-categories-title-three {
+    margin-bottom: 6px;
+}
+
+.project-section-image-background-three {
+    background-image: url("img/marta_portales_xoc_01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 60vw;
+    transform: translateX(17vw);
+    margin-bottom: 30px;
+}
+
+.project-section-footer-title-three {
+     width: 654px;
+    font-size: 62px;
+    line-height: 62px;
+    text-align: left;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.project-section-footer-three .button-project {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+
+.project-section-four {
+    background-color: #CD5C1A;
+    height: 100vh;
+    width: 75vw;
+    padding: 0 50px 0 50px;
+    align-self: flex-end;
+}
+
+.project-section-content-four {
+    display: flex;
+    height: 80vh;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.project-section-categories-four {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+.project-section-image-four {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.project-section-footer-four {
+    display: flex;
+    justify-content: space-between;
+    height: 20vh;
+    padding-left: 50px; 
+    flex-direction: row-reverse;
+}
+
+.project-section-categories-title-four {
+    margin-bottom: 6px;
+}
+
+.project-section-image-background-four {
+    background-image: url("img/marta_portales_origens_01.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    width: 60vw;
+    transform: translateX(-17vw);
+    margin-bottom: 30px;
+}
+
+.project-section-footer-title-four {
+    width: 650px;
+    font-size: 62px;
+    line-height: 62px;
+    text-align: right;
+    align-self: flex-end;
+    margin-bottom: 30px;
+}
+
+.project-section-footer-four .button-project {
+    align-self: flex-end;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #222326;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 2vh;
+    text-align: center;
+    width: 100vw;
+}
+
+
+
+
+
+.footer-section {
+    margin-left: 50px;
+    margin-right: 10vw;
+}
+
+/* project one */
+.billboard-project-one {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 36px;
+}
+
+.image-project-one-center {
+    align-self: flex-end;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/marta_portales_deterra_restaurante_04.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 96px;
+}
+
+.title-project-one {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.description-project-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.claim-project-one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 8vw;
+    height: 60vh;
+}
+
+.p-project {
+    margin-top: 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+    width: 400px;
+}
+
+
+
+.services-project {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: left;
+}
+
+.software-project {
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+.h3-project-one {
+    margin-top: 0px;
+}
+
+.previous-project-one {
+    align-self: flex-end;
+    text-align: left;
+}
+
+.next-project-one {
+    text-align: left;
+    align-self: center;
+}
+
+
+/* project two */
+
+.billboard-project-two {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/marta_portales_mutis_01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-two-left {
+        height: 100vh;
+        width: 70vw;
+        background-image: url("img/marta_portales_mutis_02.jpg");
+        background-position: center;
+        background-size: cover;
+}
+
+.image-project-two-right {
+    align-self: flex-end;
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_mutis_03.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-two-center {
+    align-self: flex-end;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/marta_portales_mutis_04.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* project three */
+.billboard-project-three {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/marta_portales_xoc_01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.image-project-three-left {
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_xoc_02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-four-left {
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_origens_02.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.image-project-three-right {
+    align-self: flex-end;
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_xoc_03.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-four-right {
+    align-self: flex-end;
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_origens_03.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-three-center {
+    align-self: flex-end;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/marta_portales_xoc_04.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-project-four-center {
+    align-self: flex-end;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("img/marta_portales_origens_04.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+
+/* project four */
+.billboard-project-four {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("img/marta_portales_origens_01.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.quien-soy {
+    width: 30vw;
+    margin-left: 50px;
+    text-align: left;
+    padding-bottom: 100px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.quien-soy-section-title {
+    margin-bottom: 20px;
+}
+
+.image-marta-portales {
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_design_graphic_me.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-office {
+    align-self: flex-end;
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_office.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.image-colaboradores {
+    height: 100vh;
+    width: 70vw;
+    background-image: url("img/marta_portales_colaboradores_lambdaloopers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.colaboradores-section {
+    padding-bottom: 100px;
+}
+
+.title-colaboradores-section {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.description-colaboradores-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 50px;
+    text-align: left;
+}
+
+.text-colaboradores-section {
+    flex: 2;
+    padding-right: 50px;
+}
+
+.colaborator-colaboradores-section {
+    flex: 1;
+}
+
+.h3-colaboradores-section {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.clientes-section {
+   margin-bottom: 100px;
+}
+
+.title-clientes-section {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.description-clientes-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.h4-clientes {
+    margin-left: 50px;
+    margin-right: 100px;
+    text-align: left;
+    line-height: 40px;
+}
+
+.quien-soy-section-description {
+    margin-bottom: 40px;
+}
+
+.que-se-hacer {
+    padding-bottom: 100px;
+}
+
+.title-que-se-hacer {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.que-se-hacer-services {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+}
+
+.list {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.que-se-hacer-services h3 {
+    text-align: left;
+}
+
+.contact-main {
+    height: 100vh;
+    display: flex;
+}
+
+.image-contacto {
+    height: 100vh;
+    width: 30vw;
+    background-image: url("img/marta_portales_contact.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 50px;
+}
+
+
+.contact-footer-link,
+.contact-footer-link:active,
+.contact-footer-link:visited {
+    color: #222326;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: none;
+  }
+    
+.contact-footer-link:hover {
+    opacity: .3;
+}
+
+.contact-content-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.contact-content-footer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.contact-content-footer a {
+    flex: 1;
+}
+
+.mobile-menu {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222326;
+    margin: 0;
+    display: none;
+    z-index: 1;
+}
+
+.mobile-menu-burger-button {
+    width: 50px;
+}
+
+.mobile-menu-burger-button-close {
+    width: 50px;
+    display: none;
+}
+
+.logo-marta-white {
+    display: none;
+    width: 120px;
+}
+
+html.menu-open .mobile-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+html.menu-open .mobile-menu-burger-button-close {
+  display: flex;
+}
+
+html.menu-open .mobile-menu-burger-button {
+  display: none;
+}
+
+html.menu-open .logo-marta-white {
+  display: flex;
+}
+
+html.menu-open .logo-marta {
+  display: none;
+}
+  
+.header .header-link.active {
+    opacity: .3;
+}
+
+@media screen and (max-width: 981px) {
+    .header > .header-link {
+        display: none;
+    }
+
+    .header > .mobile-menu {
+        display: initial;
+    }
+
+    .description-project-one {
+        flex-direction: column;
+    }
+
+    .description-project-one > div {
+        margin-top: 20px;
+    }
+
+    .description-project-one > div > h3 {
+        margin-bottom: 10px;
+    }
+
+    .introduction-project-one {
+        padding-bottom: 6%;
+    }
+
+    .image-project-one-left {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_deterra_restaurante_02.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-two-left {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_mutis_02.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-three-left {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_xoc_02.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-four-left {
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_origens_02.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .problem-solution-project-one {
+        padding-bottom: 6%;
+        padding-top: 6%;
+    }
+
+    .problem-solution-project-two {
+        padding-bottom: 6%;
+        padding-top: 6%;
+    }
+
+    .problem-project-one, .solution-project-one {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 50px;
+    
+    }
+    .problem-project-one {
+        margin-bottom: 40px;
+    }
+
+    .h3-problem-one {
+        margin-top: 0px;
+        min-width: 30vw;
+    
+    }
+
+    .p-project-one {
+        width: 400px;
+        margin-right: 50px;
+    }
+
+    .image-project-one-right {
+        align-self: flex-end;
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_deterra_restaurante_03.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-two-right {
+        align-self: flex-end;
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_mutis_03.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-three-right {
+        align-self: flex-end;
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_xoc_03.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .image-project-four-right {
+        align-self: flex-end;
+        height: 100vh;
+        width: 100vw;
+        background-image: url("img/marta_portales_origens_03.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .footer-section-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10vh;
+    }
+
+        /* visited link */
+    .footer-link,
+    .footer-link:active,
+    .footer-link:visited {
+        color: #fff;
+        background-color: transparent;
+        text-decoration: none;
+        text-decoration-color: none;
+    }
+
+    .footer-link:hover {
+        opacity: .3;
+    }
+
+    .previous-next-project-one {
+        background-color: #fff;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin-top: 6%;
+        margin-bottom: 6%;
+    }
+
+    .previous-project-one {
+        align-self: flex-start;
+        text-align: right;
+        margin-top: 6%;
+    }
+
+    .next-project-one {
+        text-align: left;
+        align-self: flex-end;
+    }
+
+    .image-project-previous-one {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_origens_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-previous-two {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-previous-three {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_mutis_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-previous-four {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_xoc_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-next-one {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_mutis_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-next-two {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_xoc_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-next-three {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_origens_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .image-project-next-four {
+        height: 70vh;
+        width: 90vw;
+        background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+        background-position: center;
+        background-size: cover;
+        margin-top: 20px;
+    }
+
+    .background-project-next-one {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-next-two {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-next-three {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-next-four {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-next-one:hover {
+        background-color: #38477E;
+        opacity: 0.5;
+    }
+
+    .background-project-next-two:hover {
+        background-color: #A16E1E;
+        opacity: 0.5;
+    }
+
+    .background-project-next-three:hover {
+        background-color: #CD5C1A;
+        opacity: 0.5;
+    }
+
+    .background-project-next-four:hover {
+        background-color: #7F9D03;
+        opacity: 0.5;
+    }
+
+    .background-project-previous-one {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-previous-two {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-previous-three {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-previous-four {
+        height: 70vh;
+        width: 90vw;
+    }
+
+    .background-project-previous-one:hover {
+        background-color: #CD5C1A;
+        opacity: 0.5;
+    }
+
+    .background-project-previous-two:hover {
+        background-color: #7F9D03;
+        opacity: 0.5;
+    }
+
+    .background-project-previous-three:hover {
+        background-color: #38477E;
+        opacity: 0.5;
+    }
+
+    .background-project-previous-four:hover {
+        background-color: #A16E1E;
+        opacity: 0.5;
+    }
+
+    .billboard {
+        font-size: 42px;
+    }
+
+    .project-section {
+        width: 100vw;
+        padding: 0 0 0 50px;
+        display: flex;
+        flex-direction: column;
+        height: initial;
+    }
+
+    .project-section-image-background {
+        width: 100%;
+        transform: none;
+        margin-top: 30px;
+    }
+
+    .project-section-content {
+        display: flex;
+        height: initial;
+        flex-direction: column-reverse
+    }
+
+    .project-section-image {
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    .project-section-footer {
+        flex-direction: column;
+        padding-right: 50px;
+        height: initial;
+    }
+
+    .project-section-footer-title {
+        align-self: flex-start;
+        font-size: 36px;
+        width: 320px;
+        line-height: 40px;
+    }
+
+    .project-section-footer .button-project {
+        width: 100%;
+    }
+
+    .project-section-two {
+        width: 100vw;
+        padding: 0 50px 0 0;
+        display: flex;
+        flex-direction: column;
+        height: initial;
+    }
+
+    .project-section-image-background-two {
+        width: 100%;
+        transform: none;
+        margin-top: 30px;
+    }
+
+    .project-section-content-two {
+        display: flex;
+        height: initial;
+        flex-direction: column-reverse;
+    }
+
+    .project-section-image-two {
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .project-section-footer-two {
+        flex-direction: column;
+        padding-right: 0; 
+        height: initial;
+    }
+
+    .project-section-footer-title-two {
+        align-self: flex-end;
+        font-size: 36px;
+        width: 320px;
+        line-height: 40px;
+    }
+
+    .project-section-footer-two .button-project {
+        width: 100%;
+    }
+
+    .project-section-three {
+        width: 100vw;
+        padding: 0 0 0 50px;
+        display: flex;
+        flex-direction: column;
+        height: initial;
+    }
+
+    .project-section-image-background-three {
+        width: 100%;
+        transform: none;
+        margin-top: 30px;
+    }
+
+    .project-section-content-three {
+        display: flex;
+        height: initial;
+        flex-direction: column-reverse
+    }
+
+    .project-section-image-background-three {
+        align-self: flex-end;
+        width: 100%;
+    }
+
+    .project-section-footer-three {
+        flex-direction: column;
+        padding-right: 50px;
+        height: initial;
+    }
+
+    .project-section-footer-title-three {
+        align-self: flex-start;
+        font-size: 36px;
+        width: 320px;
+        line-height: 40px;
+    }
+
+    .project-section-footer-three .button-project {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .project-section-four {
+        width: 100vw;
+        padding: 0 50px 0 0;
+        display: flex;
+        flex-direction: column;
+        height: initial;
+    }
+
+    .project-section-image-background-four {
+        width: 100%;
+        transform: none;
+        margin-top: 30px;
+    }
+
+    .project-section-content-four {
+        display: flex;
+        height: initial;
+        flex-direction: column-reverse;
+    }
+
+    .project-section-image-four {
+        align-self: flex-start;
+        width: 100%;
+    }
+
+    .project-section-footer-four {
+        flex-direction: column;
+        padding-right: 0;
+        height: initial; 
+    }
+
+    .project-section-footer-title-four {
+        align-self: flex-end;
+        font-size: 36px;
+        width: 320px;
+        line-height: 40px;
+    }
+
+    .project-section-footer-four .button-project {
+        width: 100%;
+    }
+
+    .contact-main {
+        height: initial;
+        flex-direction: column-reverse;
+    }
+
+    .image-contacto {
+        width: initial;
+        height: 30vh;
+    }
+
+    .contact-content-title h1 {
+        font-size: 42px;
+    }
+
+    .contact-content-footer {
+        flex-direction: column;
+        padding-top: 50px;
+    }
+
+    .contact-content-footer a {
+    padding-bottom: 50px;
+    }
+
+    .contact-content-title h1 span {
+    display: block;
+    }
+
+    .image-marta-portales {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .quien-soy {
+        width: initial;
+        padding-right: 50px;
+    }
+
+    .que-se-hacer-services {
+        flex-direction: column;
+    }
+
+    .image-office {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .description-colaboradores-section {
+        flex-direction: column;
+    }
+
+    .text-colaboradores-section {
+        padding: 0 0 50px 0;
+    }
+
+    .colaborator-colaboradores-section {
+        padding: 0 0 50px 0;
+    }
+
+    .image-colaboradores {
+        height: 50vh;
+        width: 100vw;
+    }
+
+    .description-clientes-section {
+        flex-direction: column;
+    }
+
+    .title-que-se-hacer h1 {
+        font-size: 36px;
+    }
+
+    .title-colaboradores-section h1 {
+        font-size: 36px;
+    }
+
+    .title-clientes-section h1 {
+        font-size: 36px;
+    }
+
+    .mobile-menu a {
+        font-size: 21px;
+    }
+
+    h1 {
+        font-size: 62px;
+    }
+    
+
+}
+
+@media screen and (min-width: 981px) {
+    .header > .header-link {
+        display: initial;
+    }
+
+    .header > .mobile-menu {
+        display: none;
+    }
+
+    .mobile-menu-burger-button {
+        display: none;
+    }
+
+    .introduction-project-one {
+        height: 80vh;
+    }
+
+    .image-project-one-left {
+        height: 100vh;
+        width: 70vw;
+        background-image: url("img/marta_portales_deterra_restaurante_02.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .problem-solution-project-one {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .problem-solution-project-two {
+        padding-top: 4%;
+        padding-bottom: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+    .problem-project-one, .solution-project-one {
+        display: flex;
+        flex-direction: row;
+        text-align: left;
+    
+    }
+    .problem-project-one {
+        margin-bottom: 40px;
+    }
+
+    .h3-problem-one {
+        margin-top: 0px;
+        min-width: 30vw;
+        margin-left: 50px;
+    }
+
+    .p-project-one {
+        width: 30vw;
+    }
+
+    .image-project-one-right {
+        align-self: flex-end;
+        height: 100vh;
+        width: 70vw;
+        background-image: url("img/marta_portales_deterra_restaurante_03.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+
+    .footer-section-content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 10vh;
+    }
+
+    /* visited link */
+.footer-link,
+.footer-link:active,
+.footer-link:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: none;
+  }
+
+.footer-link:hover {
+    opacity: .3;
+}
+
+.previous-next-project-one {
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 50px 50px;
+}
+
+.previous-project-one {
+    align-self: flex-end;
+    text-align: left;
+}
+
+.next-project-one {
+    text-align: left;
+    align-self: center;
+}
+
+.image-project-previous-one {
+    height: 40vh;
+    width: 30vw;
+    background-image: url("img/marta_portales_origens_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-previous-two {
+    height: 40vh;
+    width: 30vw;
+    background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-previous-three {
+    height: 40vh;
+    width: 30vw;
+    background-image: url("img/marta_portales_mutis_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-previous-four {
+    height: 40vh;
+    width: 30vw;
+    background-image: url("img/marta_portales_xoc_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-next-one {
+    height: 70vh;
+    width: 60vw;
+    background-image: url("img/marta_portales_mutis_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-next-two {
+    height: 70vh;
+    width: 60vw;
+    background-image: url("img/marta_portales_xoc_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-next-three {
+    height: 70vh;
+    width: 60vw;
+    background-image: url("img/marta_portales_origens_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.image-project-next-four {
+    height: 70vh;
+    width: 60vw;
+    background-image: url("img/marta_portales_deterra_restaurante_01.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.background-project-next-one {
+    height: 70vh;
+    width: 60vw;
+}
+
+.background-project-next-two {
+    height: 70vh;
+    width: 60vw;
+}
+
+.background-project-next-three {
+    height: 70vh;
+    width: 60vw;
+}
+
+.background-project-next-four {
+    height: 70vh;
+    width: 60vw;
+}
+
+.background-project-next-one:hover {
+    background-color: #38477E;
+    opacity: 0.5;
+}
+
+.background-project-next-two:hover {
+    background-color: #A16E1E;
+    opacity: 0.5;
+}
+
+.background-project-next-three:hover {
+    background-color: #CD5C1A;
+    opacity: 0.5;
+}
+
+.background-project-next-four:hover {
+    background-color: #7F9D03;
+    opacity: 0.5;
+}
+
+.background-project-previous-one {
+    height: 40vh;
+    width: 30vw;
+}
+
+.background-project-previous-two {
+    height: 40vh;
+    width: 30vw;
+}
+
+.background-project-previous-three {
+    height: 40vh;
+    width: 30vw;
+}
+
+.background-project-previous-four {
+    height: 40vh;
+    width: 30vw;
+}
+
+.background-project-previous-two:hover {
+    background-color: #7F9D03;
+    opacity: 0.5;
+}
+
+.background-project-previous-three:hover {
+    background-color: #38477E;
+    opacity: 0.5;
+}
+
+.background-project-previous-four:hover {
+    background-color: #A16E1E;
+    opacity: 0.5;
+}
+
+.background-project-previous-one:hover {
+    background-color: #CD5C1A;
+    opacity: 0.5;
+}
+
+}
+
+@media screen and (max-width: 559px) {
+    .p-project {
+        width: auto;
+    }
+
+    .p-project-one {
+        width: auto;
+    }
+
+
+    .footer-section-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+
+    /* visited link */
+.footer-link,
+.footer-link:active,
+.footer-link:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+    text-decoration-color: none;
+    margin-bottom: 10%;
+  }
+
+.footer-link:hover {
+    opacity: .3;
+}
+}
+
+@media screen and (max-width: 1100px) {
+    .project-section-footer-title {
+        font-size: 36px;
+    line-height: 36px;  
+    width: inherit;
+    }
+
+    .project-section-footer-title-two {
+        font-size: 36px;
+    line-height: 36px;  
+    width: inherit;
+    }
+
+    .project-section-footer-title-three {
+        font-size: 36px;
+    line-height: 36px;  
+    width: inherit;
+    }
+
+    .project-section-footer-title-four {
+        font-size: 36px;
+    line-height: 36px; 
+    width: inherit; 
+    }
+
+    }
